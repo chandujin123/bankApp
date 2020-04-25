@@ -1,0 +1,26 @@
+<div fxLayout="column" class="full-width full-height" fxLayoutAlign="start start" fxLayoutGap="0px">
+  <div fxFlex="10%" class="full-width" >
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span>Bank</span>
+        <span class="example-spacer"></span>
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </div>
+  <div fxFlex="90%"class="full-width">
+<div fxLayout="row" class="full-height" fxLayoutAlign="start start" fxLayoutGap="10px">
+<div class="full-height side-nav" fxFlex="10%">
+  <mat-list role="list">
+    <mat-list-item role="listitem" routerLinkActive="active-link" routerLink="addcustomer">Add Customer</mat-list-item>
+    <mat-list-item role="listitem" routerLinkActive="active-link" routerLink="getcustomer">get Customer </mat-list-item>
+    <mat-list-item role="listitem" routerLinkActive="active-link" routerLink="transaction">get Transaction </mat-list-item>
+  </mat-list>
+</div>
+<div class="full-height" fxFlex="90%">
+<router-outlet></router-outlet>
+</div>
+</div>
+  </div>
+  </div>
+

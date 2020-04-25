@@ -1,0 +1,32 @@
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.full-width {
+  width: 100%;
+}
+:host{
+  width: 100%;
+}
+.example-containe{
+  height: 100%;
+  background: purple;
+}
+.full-height {
+  height: 100%;
+}
+.side-nav {
+  background: #3f51b5;
+}
+[role=listitem] {
+  color: white;
+  font-variant-caps: all-petite-caps;
+  font-size: larger;
+}
+.active-link{
+  background: white;
+  color: #3f51b5;
+}
